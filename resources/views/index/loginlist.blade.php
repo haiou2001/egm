@@ -93,7 +93,7 @@
             var str = "二维码已经失效，请点击图片重新获取";
             $('.shixiao').html(str);
         }
-    } 
+    }
     function getstatus(){
         $.ajax({
             url:"{{url('index/ajaxre')}}",
