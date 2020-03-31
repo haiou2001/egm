@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Index;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use Illuminate\Http\Request; 
 use QRcode;
 use App\Model\erweima as Er;
 use App\Model\UserModel as User;

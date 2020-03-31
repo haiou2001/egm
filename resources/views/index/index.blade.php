@@ -53,7 +53,7 @@
         getUserNewMsgUrl = "http://account.book.qq.com/usermessage/getMessageNew.html",
         webSite = "book";
     
-    var addToBookshelfAjaxUrl = "/public/addToBookshelf.html";
+    var addToBookshelfAjaxUrl = "/public/addToBookshelf.html"; 
 
     $(function(){
         //书架

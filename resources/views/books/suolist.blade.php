@@ -13,7 +13,7 @@
     <h3>类型：{{$data->books_cate}}</h3>
     <form action="{{url('books/yue')}}" method="get">
         @csrf
-        <input type="hidden" value="{{$data->books_id}}" name="books_yue">
+        <input type="hidden" value="{{$data->books_id}}" name="books_yue"> 
         <input type="submit" value="点击投票月票">
     </form>
     <form action="{{url('books/alipay')}}" method="get">
